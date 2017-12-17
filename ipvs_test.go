@@ -125,6 +125,7 @@ var (
 			InactConn:     1,
 		},
 		{
+			LocalAddress:  "",
 			LocalMark:     "10001000",
 			RemoteAddress: net.ParseIP("192.168.50.26"),
 			RemotePort:    3306,
@@ -134,6 +135,7 @@ var (
 			InactConn:     1,
 		},
 		{
+			LocalAddress:  "",
 			LocalMark:     "10001000",
 			RemoteAddress: net.ParseIP("192.168.50.21"),
 			RemotePort:    3306,
